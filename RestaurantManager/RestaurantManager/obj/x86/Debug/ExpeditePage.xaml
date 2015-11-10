@@ -11,9 +11,15 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="0.9*"></RowDefinition>
             <RowDefinition Height="0.1*"></RowDefinition>
-            
+
         </Grid.RowDefinitions>
-        <TextBlock x:ConnectionId='1' x:Name="textBlock" Foreground="White"  FontSize="32" HorizontalAlignment="Center" Margin="195,0,175,-8" Grid.Row="1" TextWrapping="Wrap" Text="**Clear all Orders**" VerticalAlignment="Bottom"/>
+        <Button x:ConnectionId='1' Foreground="White" Background="Gray"  FontSize="32" HorizontalAlignment="Center" Margin="195,0,160,2"  Content="**Clear all Orders**" VerticalAlignment="Bottom" Grid.RowSpan="2"                      Width="285" />
+        <GridView x:ConnectionId='2' x:Name="gridView" HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top" Width="620" Height="237"/>
+        <AppBar>
+            <AppBarButton x:ConnectionId='3' x:Name="appBarButton"  HorizontalAlignment="Left" Icon="Home" Label="Home" Margin="10,5,0,-45" VerticalAlignment="Top" Width="68"                           />
+
+        </AppBar>
+        <!--<TextBlock x:Name="textBlock" Foreground="White"  FontSize="32" HorizontalAlignment="Center" Margin="195,0,175,-8" Grid.Row="1" TextWrapping="Wrap" Text="**Clear all Orders**" VerticalAlignment="Bottom"/>-->
     </Grid>
 </Page>
 

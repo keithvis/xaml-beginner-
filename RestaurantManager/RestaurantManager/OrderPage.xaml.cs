@@ -20,28 +20,23 @@ namespace RestaurantManager
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class OrderPage : Page
+ 
     {
-        public MainPage()
+        public OrderPage()
         {
             this.InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void appBarButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(OrderPage));
-
+            Frame.Navigate(typeof(MainPage));
         }
 
-        private void handleclick(object sender, RoutedEventArgs e)
+        private void appBarButton_Click_1(object sender, RoutedEventArgs e)
         {
-
-            Frame.Navigate(typeof(ExpeditePage));
+            Frame.Navigate(typeof(MainPage));
 
         }
-        //private async void handleclick(object sender,RoutedEventArgs e)
-        //{
-        //    await new Windows.UI.Popups.MessageDialog("you clicked me").ShowAsync();
-        //}
     }
 }
