@@ -1,1 +1,2 @@
+C:\Users\keith\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager.Models\RestaurantManager.Models.csproj;x86
 C:\Users\keith\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\RestaurantManager.csproj;x86

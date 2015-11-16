@@ -5,6 +5,7 @@
     xmlns:local="using:RestaurantManager"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    DataContext="{StaticResource DataManager}"
     mc:Ignorable="d">
 
     <Grid Background="Black">
@@ -20,13 +21,13 @@
             <ColumnDefinition Width="0.25*"></ColumnDefinition>
             <ColumnDefinition Width="0.25*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="textBlock" Foreground="White"  Grid.Column="1" HorizontalAlignment="Left" Margin="53,6,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Special Requests:   Order Items:" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="textBlock" Foreground="White"  Grid.Column="1" HorizontalAlignment="Left" Margin="10,6,0,0" Grid.Row="1"  TextWrapping="Wrap" Text="Special Requests:   Order Items:" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="95" Grid.RowSpan="2" Width="284"/>
         <!--<TextBlock x:Name="textBlock2" Foreground="White" Grid.Column="1" HorizontalAlignment="Stretch" Margin="97,7,100,9" Grid.Row="4" TextWrapping="Wrap" Text="**Submit Order**" VerticalAlignment="Center" Grid.ColumnSpan="2"/>-->
-        <Button x:Name="button" Content="**Add to Order**" Background="Gray" Foreground="White" HorizontalAlignment="Center" Margin="98,0,61,3" Grid.Row="4"    VerticalAlignment="Center" Height="33" Width="161"/>
-        <Button x:Name="button1" Content="**Submit Order**" Background="Gray" Foreground="White" Grid.Column="1" HorizontalAlignment="Stretch" Margin="97,4,60,3" Grid.Row="4"   VerticalAlignment="Center" Grid.ColumnSpan="2" Height="29"/>
-        <ListView x:Name="listView" Grid.Column="2" HorizontalAlignment="Left" Height="160" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="140"/>
-        <ListView x:Name="listView1" HorizontalAlignment="Left" Height="160" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="89"/>
-<AppBar Grid.ColumnSpan="3" Height="72" Margin="0,0,10,0"
+        <Button x:Name="button" Content="**Add to Order**" Background="Gray" Foreground="White" HorizontalAlignment="Center" Margin="0,10,60,3" Grid.Row="3"    VerticalAlignment="Center" Height="59" Width="260" Grid.RowSpan="2"/>
+        <Button x:Name="button1" Content="**Submit Order**" Background="Gray" Foreground="White" Grid.Column="1" HorizontalAlignment="Stretch" Margin="0,10,36,3" Grid.Row="3"   VerticalAlignment="Center" Grid.ColumnSpan="2" Height="59" Grid.RowSpan="2"/>
+        <ListView x:Name="listView" ItemsSource="{Binding CurrentlySelectedMenuItems }" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="10,70,0,0" Grid.Row="2" VerticalAlignment="Top" Width="300" Grid.ColumnSpan="2"/>
+        <ListView x:Name="listView1" ItemsSource="{Binding MenuItems}" HorizontalAlignment="Left" Height="160" Margin="15,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="115"/>
+        <AppBar Grid.ColumnSpan="3" Height="72" Margin="0,0,10,0"
     
     >
             <AppBarButton x:Name="appBarButton" HorizontalAlignment="Left" Icon="Home" Label="Home" VerticalAlignment="Top" Click="appBarButton_Click_1"/>

@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\keith\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-02T07:11:18.990</Modified>
+      <Modified>2015-11-13T23:46:23.830</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -66,7 +66,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\keith\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\entrypoint\RestaurantManager.exe">
       <PackagePath>entrypoint\RestaurantManager.exe</PackagePath>
-      <Modified>2015-11-02T07:11:17.491</Modified>
+      <Modified>2015-11-13T23:46:22.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\keith\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -86,15 +86,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\keith\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-02T07:11:18.125</Modified>
+      <Modified>2015-11-13T23:46:23.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\keith\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\RestaurantManager.exe">
       <PackagePath>RestaurantManager.exe</PackagePath>
-      <Modified>2015-11-02T07:11:18.882</Modified>
+      <Modified>2015-11-13T23:46:23.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\keith\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\RestaurantManager.Models.dll">
+      <PackagePath>RestaurantManager.Models.dll</PackagePath>
+      <Modified>2015-11-13T08:43:04.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\keith\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\RestaurantManager.Models\Properties\RestaurantManager.Models.rd.xml">
+      <PackagePath>RestaurantManager.Models\Properties\RestaurantManager.Models.rd.xml</PackagePath>
+      <Modified>2015-11-11T02:31:19.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\keith\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\RestaurantManager.xr.xml">
       <PackagePath>RestaurantManager.xr.xml</PackagePath>
-      <Modified>2015-11-02T07:10:19.249</Modified>
+      <Modified>2015-11-13T08:45:36.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\keith\Documents\Visual Studio 2015\Projects\RestaurantManager\RestaurantManager\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
